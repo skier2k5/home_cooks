@@ -1,0 +1,30 @@
+AllCops:
+  Exclude:
+    - "vendor/**/*"
+    - "db/schema.rb"
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  CountComments: false  # count full line comments?
+  Max: 15
+  Exclude:
+    - "db/migrate/*"
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/Encoding:
+  Enabled: false
+
+Style/TrailingComma:
+  EnforcedStyleForMultiline: comma
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - "config/initializers/active_record.rb"
+    - "test/test_helper.rb"
