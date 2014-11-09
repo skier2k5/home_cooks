@@ -17,6 +17,8 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem "rubocop"
+  gem "quiet_assets"
+  gem "bullet"
 end
 
 group :test do

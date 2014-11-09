@@ -41,6 +41,9 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
+    bullet (4.14.0)
+      activesupport (>= 3.0.0)
+      uniform_notifier (>= 1.6.0)
     coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -77,6 +80,8 @@ GEM
       slop (~> 3.4, >= 3.4.5)
     polyglot (0.3.5)
     powerpack (0.0.9)
+    quiet_assets (1.0.3)
+      railties (>= 3.1, < 5.0)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -134,6 +139,7 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    uniform_notifier (1.6.2)
 
 PLATFORMS
   ruby
@@ -142,10 +148,12 @@ DEPENDENCIES
   airbrake
   better_errors
   binding_of_caller
+  bullet
   coffee-rails (~> 4.0.0)
   factory_girl_rails
   jquery-rails
   mocha
+  quiet_assets
   rails (= 4.1.0)
   rubocop
   sass-rails (~> 4.0.3)
