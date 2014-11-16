@@ -13,6 +13,8 @@ gem "capistrano-rvm"
 gem "capistrano-bundler", "~> 1.1.2"
 gem "capistrano-rails"
 gem "rubocop"
+gem "execjs"
+gem "therubyracer"
 
 group :development, :test do
   gem "mocha", require: false
